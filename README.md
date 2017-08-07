@@ -1,5 +1,5 @@
 # RCloneSync
-Python cloud sync utility using rclone
+Python 2.7 cloud sync utility using rclone
 
 Rclone provides a programmatic building block interface for transferring files between a cloud service provider and your local filesystem (actually a lot of functionality), but rclone does not provide a turnkey bidirectional sync capability.  RCloneSync.py provides a bidirectional sync solution.
 
