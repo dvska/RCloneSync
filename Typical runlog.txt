@@ -1,0 +1,32 @@
+2017-08-06 21:25:14,023/WARNING:  ***** BiDirectional Sync for Cloud Services using RClone *****
+2017-08-06 21:25:14,031/INFO:  >>>>> Checking rclone Local and Remote access health
+2017-08-06 21:25:15,433/INFO:  >>>>> Generating Local and Remote lists
+2017-08-06 21:25:16,492/INFO:  LOCAL    Checking for Diffs                  - /mnt/raid1/share/public/DBox/Dropbox
+2017-08-06 21:25:16,493/INFO:  LOCAL      File was deleted                  - SW1/python/RCloneSync/rclone - Copy.txt
+2017-08-06 21:25:16,493/INFO:  LOCAL      File is new                       - SW1/python/RCloneSync/rclone.test
+2017-08-06 21:25:16,493/WARNING:       2 file change(s) on the Local system /mnt/raid1/share/public/DBox/Dropbox
+2017-08-06 21:25:16,493/INFO:  REMOTE   Checking for Diffs                  - Dropbox:
+2017-08-06 21:25:16,493/INFO:  REMOTE     File was deleted                  - Exchange/20170803_100011 (Small).jpg
+2017-08-06 21:25:16,493/INFO:  REMOTE     File was deleted                  - Exchange/20170803_105125 (Small).jpg
+2017-08-06 21:25:16,494/INFO:  REMOTE     File is new                       - Exchange/20170803_100011 test.jpg
+2017-08-06 21:25:16,494/WARNING:       3 file change(s) on Dropbox:
+2017-08-06 21:25:16,494/INFO:  >>>>> Applying changes on Remote to Local
+2017-08-06 21:25:16,494/INFO:  LOCAL      Deleting file                     - "/mnt/raid1/share/public/DBox/Dropbox/Exchange/20170803_100011 (Small).jpg" 
+2017-08-06 21:25:16,500/INFO:  REMOTE     Copying to local                  - "/mnt/raid1/share/public/DBox/Dropbox/Exchange/20170803_100011 test.jpg" 
+2017-08-06 21:25:17,604/INFO:  LOCAL      Deleting file                     - "/mnt/raid1/share/public/DBox/Dropbox/Exchange/20170803_105125 (Small).jpg" 
+2017-08-06 21:25:17,613/INFO:  >>>>> Synching Local to Remote
+2017/08/06 21:25:17 INFO  : Dropbox root '': Modify window not supported
+2017/08/06 21:25:19 INFO  : Dropbox root '': Waiting for checks to finish
+2017/08/06 21:25:19 INFO  : Dropbox root '': Waiting for transfers to finish
+2017/08/06 21:25:20 INFO  : SW1/python/RCloneSync/rclone.test: Copied (new)
+2017/08/06 21:25:20 INFO  : Waiting for deletions to finish
+2017/08/06 21:25:20 INFO  : SW1/python/RCloneSync/rclone - Copy.txt: Deleted
+2017/08/06 21:25:20 INFO  : 
+Transferred:    356 Bytes (109 Bytes/s)
+Errors:                 0
+Checks:               683
+Transferred:            1
+Elapsed time:        3.2s
+2017-08-06 21:25:22,059/INFO:  >>>>> Refreshing Local and Remote lsl files
+
+2017-08-06 21:25:23,215/WARNING:  >>>>>

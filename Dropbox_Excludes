@@ -1,0 +1,11 @@
+# Dropbox file exclude list for use with RCloneSync - see https://www.dropbox.com/en/help/syncing-uploads/files-not-syncing
+# See https://rclone.org/filtering/ for filtering rules
+# NOTICE:  If you make changes to this file you MUST do a --FirstSetup run OR FILES WILL BE DELETED.  Run with --DryRun to see what changes will be made.
+.dropbox.attr
+~*.tmp
+~$*
+.~*
+desktop.ini
+.dropbox
+# /TiBU/*
+# /Photos/**
